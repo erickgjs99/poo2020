@@ -29,6 +29,7 @@ public class EjecutaChela {
             Chela fria = new Chela(precio, unidades, name, tipo);
             String mostrar_datos = fria.obtenerDatos();
             System.out.println(mostrar_datos);
+            sca.nextLine();
         }
         }
     }
