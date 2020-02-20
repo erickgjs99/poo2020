@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2788ee47-4b01-4e34-8240-25b51cdaa9a4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Tercer Ciclo/Programacion/Proyecto Integrador/proyecto-integrador-grupo9/~$forme_proyectoInt (1).docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tercer Ciclo/Programacion/clase05-2bim-grupal-grupo09/symbols.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tercer Ciclo/Programacion/clase05-2bim-grupal-grupo09/symbols.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tercer Ciclo/Programacion/clase07-2bim-erickgjs99/archivo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tercer Ciclo/Programacion/clase07-2bim-erickgjs99/archivo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tercer Ciclo/Programacion/clase07-2bim-erickgjs99/ejemplo16.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tercer Ciclo/Programacion/clase07-2bim-erickgjs99/ejemplo16.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tercer Ciclo/Programacion/practica02-2bim-erickgjs99/.ipynb_checkpoints/manejo-archivo-01-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Tercer Ciclo/Programacion/practica02-2bim-erickgjs99/.ipynb_checkpoints/manejo-archivo-01-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tercer Ciclo/Programacion/practica02-2bim-erickgjs99/manejo-archivo-01.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Tercer Ciclo/Programacion/practica02-2bim-erickgjs99/manejo-archivo-01.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tercer Ciclo/Programacion/practica02-2bim-erickgjs99/proyecto_IntegradorG09.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Tercer Ciclo/Programacion/practica02-2bim-erickgjs99/proyecto_IntegradorG09.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tercer Ciclo/Programacion/practica03-2bim-erickgjs99/manejo-time.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Tercer Ciclo/Programacion/practica03-2bim-erickgjs99/manejo-time.ipynb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Tercer Ciclo/Programacion/Proyecto Integrador/proyecto-integrador-grupo9" />
+  </component>
+  <component name="ProjectId" id="1Y4hwUaJEY0PD1xvwu8zvo1Saw6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunManager" selected="Application.EjecutaDesviacionMedia2">
+    <configuration name="EjecutaDesviacionMedia2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desviacion.EjecutaDesviacionMedia2" />
+      <module name="semana3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="desviacion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjecutaMultiplicacion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arreglospoo.EjecutaMultiplicacion" />
+      <module name="semana3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arreglospoo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjecutaSuma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sumaArreglo.EjecutaSuma" />
+      <module name="semana3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sumaArreglo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EjecutaDesviacionMedia2" />
+        <item itemvalue="Application.EjecutaSuma" />
+        <item itemvalue="Application.EjecutaMultiplicacion" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2788ee47-4b01-4e34-8240-25b51cdaa9a4" name="Default Changelist" comment="" />
+      <created>1582208012117</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582208012117</updated>
+      <workItem from="1582208015934" duration="7424000" />
+      <workItem from="1582226693429" duration="65000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1582208031813">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1582208031813" />
+    <state x="664" y="203" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1582208630967">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="664" y="203" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582208630967" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1582226812387">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582226812387" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1582226812387">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582226812387" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1582226812387">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582226812387" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1582226812387">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582226812387" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582209093278">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1582209093278" />
+  </component>
+</project>
