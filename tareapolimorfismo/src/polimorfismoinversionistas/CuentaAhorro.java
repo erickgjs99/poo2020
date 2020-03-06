@@ -18,17 +18,11 @@ public class CuentaAhorro extends Inversionista {
      * Metodo get y set de la clase cuentaAhorro
      * @return
      */
-    public double getCapital() {
-        return capital;
-    }
 
     public void setCapital(double capital) {
         this.capital = capital;
     }
 
-    public double getPlazo() {
-        return plazo;
-    }
 
     public void setPlazo(double plazo) {
         this.plazo = plazo;

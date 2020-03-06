@@ -18,17 +18,11 @@ public class Pagare extends Inversionista {
      * Metodo get y set de la clase Pagare
      * @return
      */
-    public double getCapital() {
-        return capital;
-    }
 
     public void setCapital(double capital) {
         this.capital = capital;
     }
 
-    public double getAnios() {
-        return anios;
-    }
 
     public void setAnios(double anios) {
         this.anios = anios;

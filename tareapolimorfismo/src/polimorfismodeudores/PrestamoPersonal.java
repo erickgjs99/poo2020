@@ -12,20 +12,14 @@ public class PrestamoPersonal extends ClienteDeudor{
      */
     @Override
     public void interesGanado() {
-        total = getPrestamo() * interes * getPlazo();
+        total = prestamo * interes * plazo;
     }
 
-    public double getPlazo() {
-        return plazo;
-    }
 
     public void setPlazo(double plazo) {
         this.plazo = plazo;
     }
 
-    public double getPrestamo() {
-        return prestamo;
-    }
 
     public void setPrestamo(double prestamo) {
         this.prestamo = prestamo;

@@ -15,17 +15,11 @@ public class CreditoAuto extends  ClienteDeudor{
         total = prestamo * interes * plazo;
     }
 
-    public double getPrestamo() {
-        return prestamo;
-    }
 
     public void setPrestamo(double prestamo) {
         this.prestamo = prestamo;
     }
 
-    public double getPlazo() {
-        return plazo;
-    }
 
     public void setPlazo(double plazo) {
         this.plazo = plazo;
