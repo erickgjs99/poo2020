@@ -18,6 +18,7 @@ public class Menu extends javax.swing.JFrame {
      */
     public Menu() {
         initComponents();
+        // Variable para que aparezca en el medio de nuestro escritorio
         this.setLocationRelativeTo(null);
     }
 
@@ -116,7 +117,9 @@ public class Menu extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jbRegistrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbRegistrarActionPerformed
+        // Declaramos el objeto
         Registro objRegistro = new Registro();
+        // Aparezca la ventana Registro
         objRegistro.show();
     }//GEN-LAST:event_jbRegistrarActionPerformed
 
@@ -125,8 +128,9 @@ public class Menu extends javax.swing.JFrame {
     }//GEN-LAST:event_jbSalirActionPerformed
 
     private void VenderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_VenderActionPerformed
-        // TODO add your handling code here:
+        // Declaramos el objeto
         Venta objVenta = new Venta();
+        // Aparezca la ventaVenta
         objVenta.show();
     }//GEN-LAST:event_VenderActionPerformed
 

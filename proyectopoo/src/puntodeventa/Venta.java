@@ -10,12 +10,14 @@ import puntodeventa.Registro;
 
 /**
  *
- * @author utpl
+ * @author Erick Jaramillo
  */
 public class Venta extends javax.swing.JFrame {
-    
+    // Declaracion de Variable
+    // Declaramos las tablas
     public static DefaultTableModel modelo2;
     public static DefaultTableModel modelo3;
+    // Iniciamos los objetos
     Cliente client = new Cliente();
     Calculo calc = new Calculo();
     Producto product = new Producto();
@@ -33,6 +35,7 @@ public class Venta extends javax.swing.JFrame {
     public Venta() {
         this.setLocationRelativeTo(null);
         initComponents();
+        // Para ir agregando columnas a nuestras tablas
         modelo2 = new DefaultTableModel();
         modelo2.addColumn("ID");
         modelo2.addColumn("NOMBRE PRODUCTO");
@@ -504,12 +507,15 @@ public class Venta extends javax.swing.JFrame {
     }//GEN-LAST:event_txtIdActionPerformed
 
     private void txtAgregarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtAgregarActionPerformed
+        //Para agregar productos la mandamos a nuestro metodo void
         agregarProducto();
     }//GEN-LAST:event_txtAgregarActionPerformed
 
     private void btnBuscarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBuscarActionPerformed
+        // Iniciamos el Objeto Claculo
         Calculo calc = new Calculo(txtproduc.getText(), txtId.getText(), 
             txtcant.getText(), txtprec.getText());   
+       //Mandamos que haga el metodo de buscar producto
         buscarProducto();
     }//GEN-LAST:event_btnBuscarActionPerformed
 
@@ -554,19 +560,24 @@ public class Venta extends javax.swing.JFrame {
     }//GEN-LAST:event_txtcantStockActionPerformed
 
     private void btnTotalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTotalActionPerformed
+        // para ir sumando todos nuestros productos comprados
         for (int i = 0; i < tablaVendida.getRowCount(); i++) {
             subtotal += Double.parseDouble(
                     tablaVendida.getValueAt(i, 4).toString());
             }
+        // Para clacular el IVA
             iva = subtotal * 0.12;
+            // Para calcular el total a pagar
             totalfinal = subtotal + iva;
+            // Para que se guarde en los campos vacios nuestros datos
             txtsubtotal.setText(Double.toString(subtotal));
             txtiva.setText(Double.toString(iva));
             txttotal.setText(Double.toString(totalfinal));
     }//GEN-LAST:event_btnTotalActionPerformed
 
     private void btnFactura2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFactura2ActionPerformed
-       Cliente client2 = new Cliente(txtnombreCliente.getText(), 
+       // Para que presente la factura
+        Cliente client2 = new Cliente(txtnombreCliente.getText(), 
                txtcedula.getText(), txtdir.getText(), txttelf.getText());
        JOptionPane.showMessageDialog(null, String.format("\t\tFactura\n\n\n\t"
                + "Nombre Cliente: %s\n\tCedula: %s\n\tDirección: %s\n\t"
@@ -578,11 +589,14 @@ public class Venta extends javax.swing.JFrame {
 
     
     void buscarProducto(){
+        // guarda el campo vacio en una variable
     String valor = txtbusca.getText();
+    // Para encomtrar similitud
         if (valor.isEmpty()) {
             tablaventas.clearSelection();
         }else{
             for (int i = 0; i < tablaventas.getRowCount(); i++) {
+                // Para ver si son iguales los id
                 if (tablaventas.getValueAt(i, 1).equals(valor)) {
                     tablaventas.requestFocus();
                     tablaventas.changeSelection(i, 1, false, false);
@@ -591,6 +605,7 @@ public class Venta extends javax.swing.JFrame {
                     txtprec.setText((String) tablaventas.getValueAt(i, 3));
                     txtcantStock.setText((String) tablaventas.getValueAt(i, 2));
                 }
+                // Para ver si son iguales los nombres del producto
                 if (tablaventas.getValueAt(i, 0).equals(valor)) {
                     tablaventas.requestFocus();
                     tablaventas.changeSelection(i, 0, false, false);
@@ -605,13 +620,16 @@ public class Venta extends javax.swing.JFrame {
     }
     
     void agregarProducto(){
-    
+    //boton de agregar al carrito
     int x = Integer.parseInt(txtcant.getText());
     int y = Integer.parseInt(txtcantStock.getText());
+    // Para ver si la cantidad requerida es menos a la del inventario
         if (x > y) {
+            // Si no cumple la condicion aparece una venta con el error
             JOptionPane.showMessageDialog(null, String.format("La cantidad %d "
                     + "\n que requiere no es posible", x));
         }else{
+            //Todos los productos de la compra en nuestra tabla de compras seleccionada
             String id = txtId.getText();
             String nombre = txtproduc.getText();
             int cantRequerida = Integer.parseInt(txtcant.getText());
@@ -619,6 +637,7 @@ public class Venta extends javax.swing.JFrame {
             total =  cantRequerida * prec;
             int cantActual = y - x;
             Object Datos[] = {id, nombre, cantRequerida, prec, total};
+            // Para agragar a la tabla
             modelo3.addRow(Datos);
             
             

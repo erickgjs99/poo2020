@@ -17,7 +17,7 @@ import javax.swing.table.DefaultTableModel;
  */
 public class Registro extends javax.swing.JFrame {
     
-    
+    //Declaracion de Variables
     DefaultTableModel modelo;
      public static LinkedList contenedor = new LinkedList();
     public int buscar;
@@ -271,20 +271,21 @@ public class Registro extends javax.swing.JFrame {
     }//GEN-LAST:event_tfUnidadActionPerformed
 
     private void MenuMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_MenuMouseClicked
-
+        // Para si al precionar el boton de menu principal lo devuelva a ella
         Menu menu = new Menu();
         menu.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_MenuMouseClicked
 
     private void jbGuardar1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbGuardar1ActionPerformed
+        // atributos que van el la tabla del registro de inventario
         String id = tfUnidad.getText();
         String nombre = tfNombre.getText();
         int cant = Integer.parseInt(tfCantidad.getText());
         double prec = Double.parseDouble(tfPrecio.getText());
         Object Datos[] = {id, nombre, cant, prec};
         modelo.addRow(Datos);
-        
+        // Para despues de teclear los atributos se limpie los campos
         limpiarCasillas();
     }//GEN-LAST:event_jbGuardar1ActionPerformed
 
@@ -293,6 +294,7 @@ public class Registro extends javax.swing.JFrame {
     }//GEN-LAST:event_pasaTodoMouseClicked
 
     private void pasaTodoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pasaTodoActionPerformed
+        //Para que pase todo a la otra columna de la ventana ventas
         for (int i = 0; i < tablacontenido.getRowCount(); i++) {
             Object Datos[] = new Object[4];
             Datos[0] = tablacontenido.getValueAt(i, 0).toString();
@@ -307,7 +309,7 @@ public class Registro extends javax.swing.JFrame {
     }//GEN-LAST:event_pasaTodoActionPerformed
     
 
-    
+    // Metodo para limpiar las casillas
     public void limpiarCasillas(){
         tfNombre.setText("");
         tfUnidad.setText("");
